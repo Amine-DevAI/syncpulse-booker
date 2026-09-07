@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+package booker;
+
+option go_package = "github.com/amine/syncpulse/proto/booker";
+
+// Service interface for Booker AI Agent
+service BookerService {
+  // ProcessUserMessage takes a user prompt, executes agent logic/tools, and returns the AI response
+  rpc ProcessUserMessage (BookerRequest) returns (BookerResponse);
+}
+
+message BookerRequest {
+  string user_id = 1;
+  string message = 2;
+}
+
+message BookerResponse {
+  string reply = 1;
+  bool tool_executed = 2;
+}
