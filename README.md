@@ -259,6 +259,6 @@ MIT — see [LICENSE](LICENSE).
 
 <div align="center">
 
-[← Back to SyncPulse](#) · [Flutter client →](#) · [Go backend →](#)
+[← Back to SyncPulse](#) · [[Flutter client](https://github.com/Amine-DevAI/syncpulse-flutter) →] · [[Go backend](https://github.com/Amine-DevAI/syncpulse-backend) →]
 
 </div>
